@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lo logramos — Graduación 2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <canvas id="petal-canvas"></canvas>
+
+
+  <div id="lightbox">
+    <span id="lightbox-close" onclick="closeLightbox()">✕</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <div class="page">
+
+    <div class="card hero reveal">
+      <div class="eyebrow">Class 2026</div>
+      <h1 contenteditable="true">We made it Lari,💐🌷💕<br><em>finally!</em></h1>
+      <p class="hero-sub" contenteditable="true">Computer Science</p>
+      <div class="pills">
+        <span class="pill" contenteditable="true">DBS · Ireland</span>
+      </div>
+    </div>
+
+    <div class="photo-hero reveal">
+      <img src="Photos/78.jpg" alt="Foto principal">
+    </div>
+
+    <div class="card reveal">
+
+      <div class="tl-item">
+        <div class="tl-spine">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-date" contenteditable="true">Year 1 · March 2023</div>
+          <div class="tl-title" contenteditable="true">When we loved everyone</div>
+          <div class="tl-desc" contenteditable="true">The moment when we thought that we would be best friends
+            forever...
+          </div>
+        </div>
+        <div class="tl-thumb">
+          <img src="Photos/11.jpeg" alt="momento 1">
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-spine">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-date" contenteditable="true">Year 2 · March 2024</div>
+          <div class="tl-title" contenteditable="true">The moment we were separeted from Rubi and Kelly</div>
+          <div class="tl-desc" contenteditable="true">In that moment, I never thought that we would survive college with
+            everyone in different groups...</div>
+        </div>
+        <div class="tl-thumb">
+          <img src="Photos/35.jpeg" alt="momento 2">
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-spine">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-date" contenteditable="true">Year 3 · November 2025</div>
+          <div class="tl-title" contenteditable="true">We didn't see each other for almost a year</div>
+          <div class="tl-desc" contenteditable="true">I just realised that I don’t have many pictures from that year,
+            and it was because we were doing our internships, which was kind of shit hahahaha...</div>
+        </div>
+        <div class="tl-thumb">
+          <img src="Photos/50.jpeg" alt="momento 3">
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-spine">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-date" contenteditable="true">Year 4 · January 2026</div>
+          <div class="tl-title" contenteditable="true">The moment our project became a reality</div>
+          <div class="tl-desc" contenteditable="true">That day, we were exploring ideas for our project, and it was so
+            nice to have someone who could understand this process. Thank you for being there through this...</div>
+        </div>
+        <div class="tl-thumb">
+          <img src="Photos/52.jpeg" alt="momento 4">
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-spine">
+          <div class="tl-dot last"></div>
+        </div>
+        <div class="tl-content">
+          <div class="tl-date" contenteditable="true">2026 · The best day ever</div>
+          <div class="tl-title" contenteditable="true">Graduation! 🎓</div>
+          <div class="tl-desc" contenteditable="true">Oh well, I am still waiting for this day to come, so when we have
+            the official picture, it will be in this space.</div>
+        </div>
+        <div class="tl-thumb">
+          <img src="Photos/.jpg" alt="momento 5">
+        </div>
+      </div>
+    </div>
+
+    <div class="card reveal">
+      <div class="sec-head">A letter for you</div>
+      <div class="envelope-wrap">
+        <div class="env-hint">✦ &nbsp; Tap to open &nbsp; ✦</div>
+        <div class="envelope" id="envelope" onclick="openEnvelope()">
+          <div class="env-body">
+            <div class="env-side-l"></div>
+            <div class="env-side-r"></div>
+            <div class="env-flap-bottom"></div>
+          </div>
+          <div class="env-flap-top"></div>
+          <div class="env-seal">🌸</div>
+        </div>
+        <div class="letter-paper" id="letter">
+          <div class="carta-sal" contenteditable="true">Queridita,</div>
+          <div class="carta-body" contenteditable="true">
+
+            I am so proud of you, of us, and of the way we have been able to close this chapter together in the best way
+            we could.
+
+            I want to thank you for all the support you have given me throughout this time. Thank you for being there
+            for me, for always lifting me up, and for giving me a shoulder to cry on whenever I needed it. It has been
+            such a long journey, full of lessons, growth and so many emotions, and I am truly grateful that we were
+            able to go through it together.
+
+            I want you to know that you are an incredible person. You have such a beautiful energy, and I admire your
+            strength so much, especially the way you have faced difficult moments throughout this journey.
+
+            I cannot thank the universe enough for bringing you into my life and for allowing us to walk this path
+            together. Without you, it would not have been the same. I am going to miss our breakfasts, our shopping
+            days, our conversations about life and love, seeing you so often, and celebrating little moments together,
+            like our birthday breakfast and our Christmas breakfast.
+
+            But I want you to know that I will always be here whenever you need me. I do not know if we will be in the
+            same country, or even on the same continent, but no matter the distance, I will always be here for you. I
+            will always support you, listen to you and help you in any way I can.
+
+            I wish you the most beautiful things in life, because you truly deserve all the good things this world has
+            to offer. Always trust yourself, believe in your abilities, because they are endless, and never settle for
+            less than what you truly deserve.
+
+            I adore you with all my heart, and I hope life brings us incredible jobs, beautiful friendships, loving
+            partners, strong families, and wonderful people around us.
+
+            Happy graduation!!!
+          </div>
+          <div class="carta-firma" contenteditable="true">Lots of love, Azharelly C 🌸</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card reveal">
+      <div class="sec-head">Galery · DBS</div>
+      <div class="masonry">
+
+        <div class="masonry-item" onclick="openLightbox('Photos/1.jpeg')">
+          <img src="Photos/1.jpeg" alt="foto 1">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/2.jpeg')">
+          <img src="Photos/2.jpeg" alt="foto 2">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/3.jpeg')">
+          <img src="Photos/3.jpeg" alt="foto 3">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/4.jpeg')">
+          <img src="Photos/4.jpeg" alt="foto 4">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/5.jpeg')">
+          <img src="Photos/5.jpeg" alt="foto 5">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/6.jpeg')">
+          <img src="Photos/6.jpeg" alt="foto 6">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/7.jpeg')">
+          <img src="Photos/7.jpeg" alt="foto 7">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/8.jpeg')">
+          <img src="Photos/8.jpeg" alt="foto 8">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/9.jpeg')">
+          <img src="Photos/9.jpeg" alt="foto 9">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/10.jpeg')">
+          <img src="Photos/10.jpeg" alt="foto 10">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/11.jpeg')">
+          <img src="Photos/11.jpeg" alt="foto 11">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/12.jpeg')">
+          <img src="Photos/12.jpeg" alt="foto 12">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/13.jpeg')">
+          <img src="Photos/13.jpeg" alt="foto 13">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/14.jpeg')">
+          <img src="Photos/14.jpeg" alt="foto 14">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/15.jpeg')">
+          <img src="Photos/15.jpeg" alt="foto 15">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/16.jpeg')">
+          <img src="Photos/16.jpeg" alt="foto 16">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/17.jpeg')">
+          <img src="Photos/17.jpeg" alt="foto 17">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/18.jpeg')">
+          <img src="Photos/18.jpeg" alt="foto 18">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/19.jpeg')">
+          <img src="Photos/19.jpeg" alt="foto 19">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/20.jpeg')">
+          <img src="Photos/20.jpeg" alt="foto 20">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/21.jpeg')">
+          <img src="Photos/21.jpeg" alt="foto 21">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/22.jpeg')">
+          <img src="Photos/22.jpeg" alt="foto 22">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/23.jpeg')">
+          <img src="Photos/23.jpeg" alt="foto 23">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/24.jpeg')">
+          <img src="Photos/24.jpeg" alt="foto 24">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/25.jpeg')">
+          <img src="Photos/25.jpeg" alt="foto 25">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/26.jpeg')">
+          <img src="Photos/26.jpeg" alt="foto 26">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/27.jpeg')">
+          <img src="Photos/27.jpeg" alt="foto 27">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/28.jpeg')">
+          <img src="Photos/28.jpeg" alt="foto 28">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/29.jpeg')">
+          <img src="Photos/29.jpeg" alt="foto 29">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/30.jpeg')">
+          <img src="Photos/30.jpeg" alt="foto 30">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/31.jpeg')">
+          <img src="Photos/31.jpeg" alt="foto 31">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/32.jpeg')">
+          <img src="Photos/32.jpeg" alt="foto 32">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/33.jpeg')">
+          <img src="Photos/33.jpeg" alt="foto 33">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/34.jpeg')">
+          <img src="Photos/34.jpeg" alt="foto 34">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/35.jpeg')">
+          <img src="Photos/35.jpeg" alt="foto 35">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/36.jpeg')">
+          <img src="Photos/36.jpeg" alt="foto 36">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/37.jpeg')">
+          <img src="Photos/37.jpeg" alt="foto 37">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/38.jpeg')">
+          <img src="Photos/38.jpeg" alt="foto 38">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/39.jpeg')">
+          <img src="Photos/39.jpeg" alt="foto 39">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/40.jpeg')">
+          <img src="Photos/40.jpeg" alt="foto 40">
+        </div>
+        <div class="masonry-item" onclick="openLightbox('Photos/41.jpeg')">
+          <img src="Photos/41.jpeg" alt="foto 41">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/42.jpeg')">
+          <img src="Photos/42.jpeg" alt="foto 42">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/43.jpeg')">
+          <img src="Photos/43.jpeg" alt="foto 43">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/44.jpeg')">
+          <img src="Photos/44.jpeg" alt="foto 44">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/45.jpeg')">
+          <img src="Photos/45.jpeg" alt="foto 45">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/46.jpeg')">
+          <img src="Photos/46.jpeg" alt="foto 46">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/47.jpeg')">
+          <img src="Photos/47.jpeg" alt="foto 47">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/48.jpeg')">
+          <img src="Photos/48.jpeg" alt="foto 48">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/49.jpeg')">
+          <img src="Photos/49.jpeg" alt="foto 49">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/50.jpeg')">
+          <img src="Photos/50.jpeg" alt="foto 50">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/51.jpeg')">
+          <img src="Photos/51.jpeg" alt="foto 51">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/52.jpeg')">
+          <img src="Photos/52.jpeg" alt="foto 52">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/53.jpeg')">
+          <img src="Photos/53.jpeg" alt="foto 53">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/54.jpeg')">
+          <img src="Photos/54.jpeg" alt="foto 54">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/55.jpeg')">
+          <img src="Photos/55.jpeg" alt="foto 55">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/56.jpeg')">
+          <img src="Photos/56.jpeg" alt="foto 56">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/57.jpeg')">
+          <img src="Photos/57.jpeg" alt="foto 57">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/58.jpeg')">
+          <img src="Photos/58.jpeg" alt="foto 58">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/59.jpeg')">
+          <img src="Photos/59.jpeg" alt="foto 59">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/60.jpeg')">
+          <img src="Photos/60.jpeg" alt="foto 60">
+        </div>
+        <div class="masonry-item" onclick="openLightbox('Photos/61.jpeg')">
+          <img src="Photos/61.jpeg" alt="foto 61">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/62.jpeg')">
+          <img src="Photos/62.jpeg" alt="foto 62">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/63.jpeg')">
+          <img src="Photos/63.jpeg" alt="foto 63">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/64.jpeg')">
+          <img src="Photos/64.jpeg" alt="foto 64">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/65.jpeg')">
+          <img src="Photos/65.jpeg" alt="foto 65">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/66.jpeg')">
+          <img src="Photos/66.jpeg" alt="foto 66">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/67.jpeg')">
+          <img src="Photos/67.jpeg" alt="foto 67">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/68.jpeg')">
+          <img src="Photos/68.jpeg" alt="foto 68">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/69.jpeg')">
+          <img src="Photos/69.jpeg" alt="foto 69">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/70.jpeg')">
+          <img src="Photos/70.jpeg" alt="foto 70">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/71.jpeg')">
+          <img src="Photos/71.jpeg" alt="foto 71">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/72.jpeg')">
+          <img src="Photos/72.jpeg" alt="foto 72">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/73.jpeg')">
+          <img src="Photos/73.jpeg" alt="foto 73">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/74.jpeg')">
+          <img src="Photos/74.jpeg" alt="foto 74">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/75.jpeg')">
+          <img src="Photos/75.jpeg" alt="foto 75">
+        </div>
+
+        <div class="masonry-item" onclick="openLightbox('Photos/81.jpeg')">
+          <img src="Photos/81.jpeg" alt="foto 76">
+        </div>
+      </div>
+
+      <div id="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">✕</span>
+        <span class="lightbox-prev" onclick="prevPhoto()">&#8592;</span>
+        <img id="lightbox-img" src="" alt="">
+        <span class="lightbox-next" onclick="nextPhoto()">&#8594;</span>
+      </div>
+
+      <div class="footer reveal">
+        <div class="footer-line">Hecho con amor · 2026</div>
+      </div>
+
+    </div>
+
+    <script>
+
+      const canvas = document.getElementById('petal-canvas');
+      const ctx = canvas.getContext('2d');
+      let W, H, particles = [], t = 0;
+
+      function resize() { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; }
+      resize();
+      window.addEventListener('resize', resize);
+
+      const PETAL_COLORS = ['#f2b8a8', '#e8a090', '#f8cabb', '#dca8b8', '#c9a882', '#f0d8c8', '#f5c4d8', '#e4b0c0', '#fce0d4'];
+      const rnd = (a, b) => a + Math.random() * (b - a);
+
+      function makePetal() {
+        return {
+          type: 'petal', x: rnd(0, W), y: rnd(-60, -10),
+          r: rnd(4, 9), rx: rnd(2, 5),
+          color: PETAL_COLORS[Math.floor(Math.random() * PETAL_COLORS.length)],
+          speed: rnd(.4, 1.1), drift: rnd(-.4, .4),
+          angle: rnd(0, Math.PI * 2), spin: rnd(-.02, .02),
+          sway: rnd(.003, .008), swayOff: rnd(0, Math.PI * 2),
+          opacity: rnd(.5, .85)
+        };
+      }
+      function makeGlitter() {
+        return {
+          type: 'glitter', x: rnd(0, W), y: rnd(0, H),
+          size: rnd(2, 5), speed: rnd(.15, .45), drift: rnd(-.15, .15),
+          opacity: 0, maxOp: rnd(.4, .85),
+          phase: rnd(0, Math.PI * 2), freq: rnd(.018, .04)
+        };
+      }
+
+      for (let i = 0; i < 28; i++) particles.push(makePetal());
+      for (let i = 0; i < 55; i++) particles.push(makeGlitter());
+
+      function animate() {
+        ctx.clearRect(0, 0, W, H); t++;
+        particles.forEach((p, idx) => {
+          if (p.type === 'petal') {
+            p.y += p.speed;
+            p.x += p.drift + Math.sin(t * p.sway + p.swayOff) * .6;
+            p.angle += p.spin;
+            if (p.y > H + 20) { particles[idx] = makePetal(); return; }
+            ctx.save();
+            ctx.globalAlpha = p.opacity;
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.angle);
+            ctx.beginPath();
+            ctx.ellipse(0, 0, p.r, p.rx, 0, 0, Math.PI * 2);
+            ctx.fillStyle = p.color;
+            ctx.fill();
+            ctx.restore();
+          } else {
+            p.y -= p.speed; p.x += p.drift;
+            p.opacity = p.maxOp * (Math.sin(t * p.freq + p.phase) * .5 + .5);
+            if (p.y < -5) { particles[idx] = makeGlitter(); particles[idx].y = H + 5; return; }
+            ctx.save();
+            ctx.globalAlpha = p.opacity;
+            ctx.translate(p.x, p.y);
+
+            const grd = ctx.createRadialGradient(0, 0, 0, 0, 0, p.size * 4.5);
+            grd.addColorStop(0, 'rgba(255,245,210,' + p.opacity + ')');
+            grd.addColorStop(.25, 'rgba(245,220,160,' + (p.opacity * .7) + ')');
+            grd.addColorStop(1, 'rgba(245,220,160,0)');
+            ctx.beginPath(); ctx.arc(0, 0, p.size * 4.5, 0, Math.PI * 2);
+            ctx.fillStyle = grd; ctx.fill();
+
+            const core = ctx.createRadialGradient(0, 0, 0, 0, 0, p.size * .9);
+            core.addColorStop(0, 'rgba(255,255,255,' + Math.min(p.opacity * 1.5, 1) + ')');
+            core.addColorStop(1, 'rgba(255,240,200,0)');
+            ctx.beginPath(); ctx.arc(0, 0, p.size * .9, 0, Math.PI * 2);
+            ctx.fillStyle = core; ctx.fill();
+            ctx.restore();
+          }
+        });
+        requestAnimationFrame(animate);
+      }
+      animate();
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            e.target.querySelectorAll('.tl-item').forEach((item, i) => {
+              setTimeout(() => item.classList.add('visible'), i * 120);
+            });
+          }
+        });
+      }, { threshold: .12 });
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+
+      const allPhotos = Array.from(document.querySelectorAll('.masonry-item img')).map(img => img.src);
+      let currentIndex = 0;
+
+      function openLightbox(src) {
+        currentIndex = allPhotos.findIndex(s => s.includes(src));
+        document.getElementById('lightbox-img').src = allPhotos[currentIndex];
+        document.getElementById('lightbox').classList.add('open');
+      }
+
+      function closeLightbox() {
+        document.getElementById('lightbox').classList.remove('open');
+      }
+
+      function nextPhoto() {
+        currentIndex = (currentIndex + 1) % allPhotos.length;
+        document.getElementById('lightbox-img').src = allPhotos[currentIndex];
+      }
+
+      function prevPhoto() {
+        currentIndex = (currentIndex - 1 + allPhotos.length) % allPhotos.length;
+        document.getElementById('lightbox-img').src = allPhotos[currentIndex];
+      }
+
+
+      document.getElementById('lightbox').addEventListener('click', function (e) {
+        if (e.target === this) closeLightbox();
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (!document.getElementById('lightbox').classList.contains('open')) return;
+        if (e.key === 'ArrowRight') nextPhoto();
+        if (e.key === 'ArrowLeft') prevPhoto();
+        if (e.key === 'Escape') closeLightbox();
+      });
+
+
+      function openEnvelope() {
+        const env = document.getElementById('envelope');
+        if (!env.classList.contains('open-env')) env.classList.add('open-env');
+      }
+    </script>
+</body>
+
+</html>
